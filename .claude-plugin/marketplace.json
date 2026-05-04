@@ -1,0 +1,40 @@
+{
+  "name": "chaindoc",
+  "owner": {
+    "name": "Chaindoc",
+    "email": "dev@chaindoc.io",
+    "url": "https://chaindoc.io"
+  },
+  "metadata": {
+    "description": "Official Claude Code plugins from Chaindoc — blockchain-anchored documents, e-signatures, and contract automation.",
+    "homepage": "https://chaindoc.io",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "chaindoc",
+      "source": "./chaindoc",
+      "description": "Control signatures, invoices, and contracts in Chaindoc from Claude Code or Cowork. Find documents, summarize them, and dispatch signature requests in natural language.",
+      "version": "0.1.4",
+      "author": {
+        "name": "Chaindoc",
+        "url": "https://chaindoc.io"
+      },
+      "homepage": "https://chaindoc.io",
+      "repository": "https://github.com/ChaindocIO/mcp-server",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "chaindoc",
+        "esignature",
+        "blockchain",
+        "documents",
+        "contracts",
+        "invoices",
+        "templates",
+        "embedded-signing",
+        "webhooks"
+      ]
+    }
+  ]
+}
